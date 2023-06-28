@@ -28,4 +28,4 @@ print(solution(["arp", "live", "strong"], ["lively", "alive", "harp", "sharp", "
 
 """
 
-
+# SEE PIC DK SOLUTION FIX + research other approaches....
