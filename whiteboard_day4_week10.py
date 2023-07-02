@@ -27,6 +27,26 @@
 
 # create a function appends string to the list
 
-# first strin equal amount of white space
+# first string equal amount of white space
 
-# 
+# "build a function that takes in an integer" --DK
+
+#sean L solution:
+
+def xmas_tree(num):
+    christmas = []
+    tree_height=''
+    w = num*2 - 1
+    for floor in range(num):
+        tree = ("*" * w)
+        w -= 2
+        space = floor * " "
+        my_tree = space + tree + space
+        christmas.append(my_tree)
+    christmas.reverse()
+    return christmas
+
+
+
+print(xmas_tree(3))
+
